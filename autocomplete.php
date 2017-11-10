@@ -10,9 +10,9 @@ ini_set("memory_limit","1024M");
 Database Parameter
 */
 $db_server = "localhost"; //this can be sert to your database server ip if not the same as application server.
-$db_user = "root"; //this should be your database username create other username don't use root
-$db_pass = "aherceo2$"; //Enter yout database password here. It is bad practice to allow user with password on your database server.
-$db = "icollabodb"; //Set this to the database that contains your datasource for the autocomplete
+$db_user = "db_user_name"; //this should be your database username create other username don't use root
+$db_pass = "db_user_pass"; //Enter yout database password here. It is bad practice to allow user with password on your database server.
+$db = "northwind"; //Set this to the database that contains your datasource for the autocomplete
 
 //POST data received from client on server
 $crit = $_POST["criteria"];
